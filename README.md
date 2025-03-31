@@ -79,11 +79,10 @@
 ### 🔹 Получение списка пользователей (Открытый)
 ```graphql
 query {
-  landmarks {
+  Users {
     id
-    name
-    country
-    rating
+    username
+    email
   }
 }
 ```
